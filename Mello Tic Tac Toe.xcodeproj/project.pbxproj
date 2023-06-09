@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		1B142BEE2A33C98B005DCC6D /* Mello_Tic_Tac_ToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B142BED2A33C98B005DCC6D /* Mello_Tic_Tac_ToeApp.swift */; };
 		1B142BF02A33C98B005DCC6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B142BEF2A33C98B005DCC6D /* ContentView.swift */; };
-		1B142BF22A33C98C005DCC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B142BF12A33C98C005DCC6D /* Assets.xcassets */; };
 		1B142BF52A33C98C005DCC6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B142BF42A33C98C005DCC6D /* Preview Assets.xcassets */; };
+		1B142C002A33D203005DCC6D /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B142BFF2A33D203005DCC6D /* CircleBackground.swift */; };
+		1B142C022A33D412005DCC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B142C012A33D412005DCC6D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B142BEA2A33C98B005DCC6D /* Mello Tic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mello Tic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B142BED2A33C98B005DCC6D /* Mello_Tic_Tac_ToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mello_Tic_Tac_ToeApp.swift; sourceTree = "<group>"; };
 		1B142BEF2A33C98B005DCC6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1B142BF12A33C98C005DCC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B142BF42A33C98C005DCC6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B142BFF2A33D203005DCC6D /* CircleBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		1B142C012A33D412005DCC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 			children = (
 				1B142BED2A33C98B005DCC6D /* Mello_Tic_Tac_ToeApp.swift */,
 				1B142BEF2A33C98B005DCC6D /* ContentView.swift */,
-				1B142BF12A33C98C005DCC6D /* Assets.xcassets */,
+				1B142BFF2A33D203005DCC6D /* CircleBackground.swift */,
 				1B142BF32A33C98C005DCC6D /* Preview Content */,
 			);
 			path = "Mello Tic Tac Toe";
@@ -62,6 +64,7 @@
 		1B142BF32A33C98C005DCC6D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				1B142C012A33D412005DCC6D /* Assets.xcassets */,
 				1B142BF42A33C98C005DCC6D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -125,8 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B142C022A33D412005DCC6D /* Assets.xcassets in Resources */,
 				1B142BF52A33C98C005DCC6D /* Preview Assets.xcassets in Resources */,
-				1B142BF22A33C98C005DCC6D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B142C002A33D203005DCC6D /* CircleBackground.swift in Sources */,
 				1B142BF02A33C98B005DCC6D /* ContentView.swift in Sources */,
 				1B142BEE2A33C98B005DCC6D /* Mello_Tic_Tac_ToeApp.swift in Sources */,
 			);
